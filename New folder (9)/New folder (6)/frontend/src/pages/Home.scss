@@ -1,0 +1,58 @@
+.overlay {
+    background-image: url('https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg');
+    min-height: 60vh;
+
+background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 550px;
+    width: 100%;
+    margin-left: 30px;
+
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+
+    button {
+        max-width: 150px;
+        width: 100%;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+.freshness{
+    display: flex;
+    max-width: 230px;
+    width: 100%;
+}
+.general-freshness{
+    display: flex;
+}
+.section-freshness{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.all-freshness{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.img-freshness{
+    display: flex;
+    gap: 30px;
+}

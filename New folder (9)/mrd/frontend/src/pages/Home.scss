@@ -1,0 +1,61 @@
+.general-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.section-top {
+    min-height: 800px;
+    background-color: #f41068;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.top-head {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchase {
+    max-width: 180px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.flat {
+    font-size: 60px;
+    color: white;
+}
+
+.season {
+    font-size: 75px;
+    max-width: 700px;
+    width: 100%;
+    font-weight: bolder;
+    color: white;
+}
+
+.category {
+    background-color: gray;
+    min-height: 800px;
+    padding: 20px;
+}
+
+.cards-formen {
+    max-width:1100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-content: center;
+    place-items: center;
+}
+.general-formen{
+    margin: auto;
+}

@@ -1,0 +1,11 @@
+.cards{
+    border: 1px solid black;
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    border: 1px solid black;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+    ul{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        color: rgb(0, 0, 0);
+    }
+}
+.general-navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+}

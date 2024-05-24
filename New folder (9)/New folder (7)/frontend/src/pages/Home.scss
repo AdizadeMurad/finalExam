@@ -1,0 +1,186 @@
+.section-top {
+    background-image: url('https://preview.colorlib.com/theme/course/images/slider_background.jpg');
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-head {
+    font-size: 70px;
+    color: white
+}
+
+.top-card-general {
+    display: flex;
+    gap: 50px;
+}
+
+.top-card {
+    max-width: 350px;
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    i {
+        color: yellow;
+        font-size: 50px;
+    }
+}
+
+.top-title {
+    color: white;
+    font-size: 30px;
+}
+
+.top-desc {
+    color: white;
+    font-size: 15px;
+}
+
+.general-top {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    flex-direction: column;
+}
+
+.cards-general-fetch {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-general-fetch {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-section {
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.popularcourses {
+    font-size: 40px;
+}
+
+.registernow {
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 65px;
+
+    button {
+        max-width: 200px;
+        width: 100%;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        border-style: none;
+    }
+}
+
+.inp-registernow {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+        max-width: 500px;
+        width: 100%;
+        padding: 15px;
+        border-style: none;
+    }
+
+    button {
+        max-width: 500px;
+        width: 100%;
+        padding: 12px;
+    }
+
+}
+
+.left-registernow {
+    background-color: orange;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.right-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/course/images/search_background.jpg');
+    gap: 70px;
+}
+.searchcourse{
+    background-color: orange;
+    color: white;
+    border-style: none;
+}
+.ourservices-cards{
+    padding: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;    
+ grid-template-rows: 1fr 1fr;
+ max-width: 1200px;
+ gap: 30px;
+}
+.ourservices-card{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    i{
+        color: orange;
+        font-size: 40px;
+    }
+
+}
+.general-ourservices{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.section-oursevices{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.ourservices-head{
+    font-size: 40px;
+}
+.general-card-events{
+    display: flex;
+    
+}
